@@ -1,16 +1,29 @@
 .message {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+
 
 }
 
 .imageAndText img {
-
+    width: 60px;
+    height: 60px;
 }
 
 .text {
+    background-color: rgb(244 244 244);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    height: 100%;
+
+
 
 }
 
@@ -19,13 +32,23 @@
 }
 
 .name {
+    font-weight: bold;
 
 }
 
 .messageText {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font:  14px "Roboto", sans-serif;
+    max-width: 712px;
 }
 
 .time {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 18px;
+    font-size: 10px;
+    margin-top: auto;
 
 }
