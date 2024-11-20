@@ -7,9 +7,20 @@
 .hw {
 
     padding: 0 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hwTitle {
     font-weight: bold;
     font-size: 30px;
+    margin: 20px 0;
+    padding: 40px;
+    border: 1px solid #cdc9c9;
+    border-right: none;
+}
+
+.hwTitle:first-child {
+    border-top: none;
+    margin-top: 70px;
 }

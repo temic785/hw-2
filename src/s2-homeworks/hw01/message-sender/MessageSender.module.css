@@ -1,7 +1,6 @@
 .sendForm {
     display: flex;
     justify-content: center;
-    height: 1000px;
     gap: 10px;
 
 }
