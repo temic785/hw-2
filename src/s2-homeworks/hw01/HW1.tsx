@@ -40,7 +40,7 @@ export const message0: MessageType = {
     message: {
         text: "🌱 Hello, Woopsie! 🐛\n"+
             "It’s so great to see you! I’m really happy that we can chat. How are your days on the leaves going?", // можно менять
-        time: "04:20", // можно менять
+        time: "04:19", // можно менять
     },
 }
 export const friendMessage0: MessageType = {
@@ -51,7 +51,7 @@ export const friendMessage0: MessageType = {
     },
     message: {
         text: "Normalin normalin!", // можно менять
-        time: "04:21", // можно менять
+        time: "04:20", // можно менять
     },
 }
 
