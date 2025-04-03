@@ -1,4 +1,9 @@
+
 .select {
+    font-family: 'Montserrat', sans-serif;
+    width: 165px;
+    height: 24px
+
 }
 
 .select:focus {
