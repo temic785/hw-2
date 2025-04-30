@@ -1,14 +1,27 @@
+
 .buttonsContainer {
+    display: flex;
+    gap: 20px;
+
+}
+
+.buttonsContainer button:disabled {
+    color: #FFFFFF;
 }
 
 .clock {
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .watch {
+    font-size: 20px;
 }
 
 .watch strong {
 }
 
 .more {
+    padding: 10px 0 25px 0;
+    color: #00000080;
 }
