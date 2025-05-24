@@ -8,11 +8,7 @@
 }
 
 .hw {
-
     padding: 0 70px 50px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
@@ -20,10 +16,10 @@
     font-size: 30px;
     margin: 20px 0;
     padding: 10px 70px;
-    border: 1px solid #cdc9c9;
-    border-right: none;
+    border-bottom: 1px solid #cdc9c9;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+
 
 }
 
